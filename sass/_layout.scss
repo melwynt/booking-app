@@ -4,14 +4,14 @@
     background-color: var(--color-grey-light-1);
     box-shadow: var(--shadow-dark);
 
-    min-height: 50rem;
+    // min-height: 50rem;
 }
 
 .header {
     height: 7rem;
     font-size: 1.4rem;
     background-color: #fff;
-    border-bottom: 1px solid var(--color-grey-light-2);
+    border-bottom: var(--line);
 
     display: flex;
 
@@ -37,5 +37,5 @@
     // background-color: #fff;
     flex: 1; // grow as much as it can
 
-    height: 80rem;
+    // height: 80rem;
 }
